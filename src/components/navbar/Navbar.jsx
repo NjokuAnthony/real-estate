@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li><a href='#'>Contact</a></li>
             </ul>
 
-            <div className='hamburger'><HiOutlineMenuAlt4 onClick={handleClick} className='icon'/></div>
+            <div className='hamburger' onClick={handleClick}><HiOutlineMenuAlt4 className='icon'/></div>
         </div>
     </div>
   )
