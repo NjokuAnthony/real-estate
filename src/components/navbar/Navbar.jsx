@@ -8,8 +8,7 @@ import {BsFillHouseFill} from 'react-icons/bs'
 import './navbar.css'
 
 const Navbar = () => {
-    const[click, setClick] = useState(false);
-
+    const[click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
 
