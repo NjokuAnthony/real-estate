@@ -8,6 +8,7 @@ import {BsFillHouseFill} from 'react-icons/bs'
 import './navbar.css'
 
 const Navbar = () => {
+
     const[click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
@@ -26,7 +27,9 @@ const Navbar = () => {
                 <li><a href='#'>Contact</a></li>
             </ul>
 
-            <div className='hamburger' onClick={handleClick}><HiOutlineMenuAlt4 className='icon'/></div>
+            <div className='hamburger' onClick={handleClick}>
+              <HiOutlineMenuAlt4 className='icon'/>
+            </div>
         </div>
     </div>
   )
