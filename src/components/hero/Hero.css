@@ -7,7 +7,7 @@
     margin-bottom: 4rem;
 }
 
-.hero::before {
+.hero:before {
     content: '';
     background: url('../../assets/hero-img.jpg') no-repeat center center/cover;
     position: absolute;
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    min-width: 700px;
+    max-width: 700px;
     margin: auto;
     padding: 1rem;
 }
@@ -45,10 +45,11 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid #ccc;
-    padding: 4px;border-radius: 8px;
+    padding: 4px;
+    border-radius: 8px;
 }
 
-.search input [type=text] {
+.search input[type=text] {
     border: transparent;
     border-color: transparent;
     width: 400px;
@@ -87,6 +88,6 @@
     }
 
     .search input[type=text] {
-        width: 100%;
+        width: 50%;
     }
 }
