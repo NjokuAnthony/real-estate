@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
 
             <div className='hamburger' onClick={handleClick}>
-              <HiOutlineMenuAlt4 className='icon'/>
+              {click ? (<FaRegTimesCircle className='icon' />) : (<HiOutlineMenuAlt4 className='icon'/>)}
             </div>
         </div>
     </div>
