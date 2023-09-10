@@ -18,7 +18,7 @@ const Featured = () => {
   return (
     <div className='featured'>
         <h1 className='featured-text'>Top Featured Listings</h1>
-        <p>Selected Listings by City, State, & Zip based on views.</p>
+        <p className='featured-text'>Selected Listings by City, State, & Zip based on views.</p>
         <div className="container">
             <img className='span-3 image-grid-row-2' src={House1} alt='' />
             <img src={bed1} alt='' />
