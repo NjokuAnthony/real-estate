@@ -18,7 +18,7 @@ const Featured = () => {
   return (
     <div className='featured'>
         <h1 className='featured-text'>Top Featured Listings</h1>
-        <p className='featured-text'>Selected Listings by City, State, & Zip based on views.</p>
+        <p className='featured-text-1'>Selected Listings by City, State, & Zip based on views.</p>
         <div className="container">
             <img className='span-3 image-grid-row-2' src={House1} alt='' />
             <img src={bed1} alt='' />
@@ -60,21 +60,21 @@ const Featured = () => {
             </div>
         </div>
         <div className="container">
-            <img src={bed3} alt='' />
-            <img src={bed4} alt='' />
+            <img className='order-2' src={bed3} alt='' />
+            <img className='order-3' src={bed4} alt='' />
 
             <img className='span-3 image-grid-row-2' src={House2} alt='' />
 
 
-            <img src={bathroom2} alt='' />
-            <img src={livingroom} alt='' />
-            <div className="span-2 right-img-details">
+            <img className='order-4' src={bathroom2} alt='' />
+            <img className='order-5' src={livingroom} alt='' />
+            <div className="span-2 right-img-details order-7">
                 <p>A beautiful modern day home in the city with full-size pool. Spacious and luxury home loacted in Abuja. Including media room, workout facility, and built-in Sauna</p>
                 <button className="btn">View Listings</button>
             </div>
 
 
-            <div className="span-3 img-details">
+            <div className="span-3 img-details order-6">
                 <div className="top">
                     <h2>123 Njoku St. Lagos, LA</h2>
                     <p>House for Sale</p>
